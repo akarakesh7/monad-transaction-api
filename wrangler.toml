@@ -1,0 +1,12 @@
+name = "monad-transactions-proxy"
+main = "worker.js"
+compatibility_date = "2023-10-30"
+
+[vars]
+# These will be replaced with actual values in the Cloudflare dashboard
+# or when deploying with Wrangler CLI
+THIRDWEB_CLIENT_ID = ""
+API_KEY = ""
+
+# Add your allowed origins if needed
+# ALLOWED_ORIGINS = "http://localhost:5173,https://example.com" 
